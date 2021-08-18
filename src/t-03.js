@@ -7,3 +7,5 @@ class Foo {
     console.log('Foo - Hello');
   }
 }
+
+module.exports = { Foo };
