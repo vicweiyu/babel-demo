@@ -53,10 +53,10 @@ module.exports = function (api) {
     [
       '@babel/plugin-transform-runtime',
       {
-        corejs: { version: 3, proposals: true },
         version: '^7.15.3',
+        corejs: { version: 3, proposals: true },
         regenerator: true,
-        useESModules: false,
+        useESModules: false, // deprecated from 7.13.0, defaults to false
       },
     ],
   ];
