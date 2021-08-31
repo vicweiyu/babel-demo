@@ -2,6 +2,8 @@ const babelCore = require('@babel/core');
 
 const es6Code = `const f = () => { console.log('Hello'); }`;
 const options = {
+  code: false,
+  ast: true,
   presets: ['@babel/preset-env'],
 };
 

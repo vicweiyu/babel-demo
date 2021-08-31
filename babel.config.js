@@ -61,5 +61,5 @@ module.exports = function (api) {
     ],
   ];
 
-  return { presets, plugins };
+  return { sourceMap: 'both', presets, plugins };
 };
