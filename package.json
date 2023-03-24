@@ -21,21 +21,21 @@
   },
   "homepage": "https://github.com/vicweiyu/babel-demo#readme",
   "dependencies": {
-    "@babel/runtime": "^7.15.3",
-    "@babel/runtime-corejs3": "^7.15.3",
-    "core-js": "^3.16.3",
+    "@babel/runtime": "^7.21.0",
+    "@babel/runtime-corejs3": "^7.21.0",
+    "core-js": "^3.29.1",
     "lodash-es": "^4.17.21",
-    "regenerator-runtime": "^0.13.9"
+    "regenerator-runtime": "^0.13.11"
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.15.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
-    "@babel/plugin-transform-arrow-functions": "^7.14.5",
-    "@babel/plugin-transform-classes": "^7.14.9",
-    "@babel/plugin-transform-computed-properties": "^7.14.5",
-    "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.0",
-    "prettier": "^2.3.2"
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-transform-arrow-functions": "^7.20.7",
+    "@babel/plugin-transform-classes": "^7.21.0",
+    "@babel/plugin-transform-computed-properties": "^7.20.7",
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "prettier": "^2.8.6"
   }
 }
